@@ -1,9 +1,12 @@
 /* eslint-disable react/jsx-filename-extension,react/style-prop-object */
 import React from 'react';
 import {
-  StyleSheet, View, Platform, StatusBar,
+  Platform,
+  StatusBar,
+  StyleSheet,
+  View,
 } from 'react-native';
-import SimpleList from './src/simpleList';
+import MockBookList from './src/mockBookList';
 
 const styles = StyleSheet.create({
   container: {
@@ -18,7 +21,7 @@ const styles = StyleSheet.create({
 export default function App() {
   return (
     <View style={styles.container}>
-      <SimpleList />
+      <MockBookList />
     </View>
   );
 }
