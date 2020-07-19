@@ -6,7 +6,7 @@ import {
   StyleSheet,
   View,
 } from 'react-native';
-import MockBookList from './src/mockBookList';
+import BookList from './src/bookList';
 
 const styles = StyleSheet.create({
   container: {
@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
 export default function App() {
   return (
     <View style={styles.container}>
-      <MockBookList />
+      <BookList />
     </View>
   );
 }
